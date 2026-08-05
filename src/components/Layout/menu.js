@@ -1,0 +1,25 @@
+import {
+  Bell,
+  BookOpen,
+  CalendarDays,
+  CheckSquare,
+  ClipboardList,
+  GraduationCap,
+  LayoutDashboard,
+  Mail,
+  NotebookTabs,
+  UserRound,
+} from 'lucide-react'
+
+export const menuItems = [
+  { label: 'Dashboard', path: '/dashboard', icon: LayoutDashboard, badge: null },
+  { label: 'Lịch giảng dạy', path: '/lich-giang-day', icon: CalendarDays, badge: '3' },
+  { label: 'Lớp học của tôi', path: '/lop-hoc-cua-toi', icon: GraduationCap, badge: null },
+  { label: 'Ngân hàng bài tập', path: '/ngan-hang-bai-tap', icon: BookOpen, badge: null },
+  { label: 'Ngân hàng đề thi', path: '/ngan-hang-de-thi', icon: ClipboardList, badge: null },
+  { label: 'Chấm điểm', path: '/cham-diem', icon: CheckSquare, badge: '12' },
+  { label: 'Kết quả học tập', path: '/ket-qua-hoc-tap', icon: NotebookTabs, badge: null },
+  { label: 'Tin nhắn', path: '/tin-nhan', icon: Mail, badge: '9' },
+  { label: 'Thông báo', path: '/thong-bao', icon: Bell, badge: '5' },
+  { label: 'Hồ sơ cá nhân', path: '/ho-so-ca-nhan', icon: UserRound, badge: null },
+]

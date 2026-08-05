@@ -1,0 +1,13 @@
+import { teacher } from '../../datas/portalData.js'
+import { Card } from '../Common/Card.jsx'
+
+export const ProfileHero = () => (
+  <Card className="flex flex-col gap-4 sm:flex-row sm:items-center">
+    <img className="h-24 w-24 rounded-3xl object-cover ring-4 ring-orange-100" src={teacher.avatar} alt={teacher.name} />
+    <div>
+      <p className="text-sm font-bold text-orange-600">Hồ sơ giáo viên</p>
+      <h1 className="mt-1 text-3xl font-black text-slate-950">{teacher.name}</h1>
+      <p className="mt-1 text-sm text-slate-500">{teacher.role}</p>
+    </div>
+  </Card>
+)
