@@ -12,7 +12,6 @@ export const dashboardToday = {
   homeworkToGrade: 36,
   examsToGrade: 12,
   newNotifications: 5,
-  newMessages: 9,
   nextClass: {
     name: 'Kids Starter B',
     time: '14:00 - 15:30',
@@ -26,7 +25,6 @@ export const dashboardStats = [
   { label: 'Lớp hôm nay', value: '03', note: '2 offline, 1 online', tone: 'orange' },
   { label: 'Homework cần chấm', value: '36', note: '12 bài hôm nay', tone: 'amber' },
   { label: 'Bài thi cần chấm', value: '12', note: '3 bài ưu tiên', tone: 'rose' },
-  { label: 'Tin nhắn mới', value: '09', note: '3 phụ huynh', tone: 'green' },
 ]
 
 export const classAttendance = [
@@ -98,12 +96,6 @@ export const learningResults = [
   { skill: 'Reading', average: 7.9, target: 8.0 },
   { skill: 'Writing', average: 6.8, target: 7.5 },
   { skill: 'Speaking', average: 7.1, target: 7.5 },
-]
-
-export const conversations = [
-  { name: 'Phụ huynh Minh Anh', message: 'Cô ơi, tuần này em cần ôn thêm Writing không?', time: '09:12', unread: 2 },
-  { name: 'IELTS Foundation A', message: 'Reminder: nộp bài trước 21:00 hôm nay.', time: '08:30', unread: 0 },
-  { name: 'Academic Office', message: 'Cập nhật lịch phòng học từ ngày mai.', time: 'Hôm qua', unread: 1 },
 ]
 
 export const notifications = [

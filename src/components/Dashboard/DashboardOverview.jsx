@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, CalendarDays, FileCheck2, MessageCircle, NotebookPen } from 'lucide-react'
+import { ArrowRight, CalendarDays, FileCheck2, NotebookPen } from 'lucide-react'
 import { dashboardStats } from '../../datas/portalData.js'
 
 const cardStyles = [
@@ -33,20 +33,10 @@ const cardStyles = [
     muted: 'text-rose-800/75',
     arrow: 'bg-rose-600 text-white',
   },
-  {
-    href: '/tin-nhan',
-    icon: MessageCircle,
-    gradient: 'from-emerald-200 via-teal-100 to-orange-100',
-    glow: 'shadow-emerald-100',
-    chip: 'bg-white/70 text-emerald-700 ring-emerald-200',
-    text: 'text-emerald-950',
-    muted: 'text-emerald-800/75',
-    arrow: 'bg-emerald-600 text-white',
-  },
 ]
 
 export const DashboardOverview = () => (
-  <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+  <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
     {dashboardStats.map((item, index) => {
       const style = cardStyles[index]
       const Icon = style.icon
